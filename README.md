@@ -1,12 +1,18 @@
-# Sample 3tier app
-This repo contains code for a Node.js multi-tier application.
+# Devops Web App
 
-The application overview is as follows
 
+### install the node packages for the web tier:
+```sh
+→ npm install
 ```
-web <=> api <=> db
+### start the app
+```sh
+→ npm start
 ```
 
-The folders `web` and `api` respectively describe how to install and run each app.
+###  NOTE this app uses two env variables:
 
+- PORT: the listening PORT
+- API_HOST: the full url to call the API app
 
+These two variables need to be set 
